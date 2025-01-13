@@ -34,8 +34,10 @@ nav ul li a {
 }
 
 main {
-    padding: 20px;
-    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
 }
 
 footer {
@@ -43,9 +45,10 @@ footer {
     color: white;
     text-align: center;
     padding: 1em 0;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
+    z-index: 0;
 }
 
 .download-container {
@@ -92,10 +95,14 @@ footer {
 
 .container {
     width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px 0;
+}
+
+.news {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .download-section {
