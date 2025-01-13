@@ -3,22 +3,28 @@ main {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    margin-bottom: 60px;  /* フッターの高さ分 */
+    align-items: center;
+    margin-bottom: 60px;
 }
 
 /* ダウンロードセクション */
 .container {
     width: 100%;
-    padding: 10px 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .download-section {
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .app-store-buttons {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     margin: 20px 0;
 }
 
@@ -35,9 +41,14 @@ main {
 /* 最新情報セクション */
 .news {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     position: relative;
     z-index: 1;
+    text-align: center;
+}
+
+.news h2 {
+    text-align: center;
 }
 
 /* フッター */
@@ -50,14 +61,14 @@ footer {
 
 /* アプリのプレビュー画像用のスタイル */
 .app-image {
-    margin-bottom: 20px;  /* App Storeボタンとの間隔 */
+    margin-bottom: 20px;
     text-align: center;
 }
 
 .app-preview {
-    max-width: 200px;     /* 画像の最大幅 */
+    max-width: 200px;
     height: auto;
-    border-radius: 20px;  /* 角を丸く */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* シャドウ効果 */
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
