@@ -55,7 +55,7 @@ footer {
 }
 
 .app-preview {
-    max-width: 300px;     /* 画像の最大幅 */
+    max-width: 200px;     /* 画像の最大幅 */
     height: auto;
     border-radius: 20px;  /* 角を丸く */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* シャドウ効果 */
