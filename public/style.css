@@ -64,3 +64,18 @@ footer {
     height: auto;
 }
 
+.app-store-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.app-store-badge {
+    max-width: 200px;
+    height: auto;
+}
+
+.app-store-link:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
