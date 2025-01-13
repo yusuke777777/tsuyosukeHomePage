@@ -66,7 +66,6 @@ footer {
 
 .app-store-buttons {
     text-align: center;
-    margin: 20px 0;
 }
 
 .app-store-badge {
@@ -77,5 +76,12 @@ footer {
 .app-store-link:hover {
     opacity: 0.8;
     transition: opacity 0.3s ease;
+}
+
+.download-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
