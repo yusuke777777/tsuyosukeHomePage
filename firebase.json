@@ -1,20 +1,12 @@
 {
   "hosting": {
     "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "headers": [
+    "target": "tennipoiDev", 
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
       {
-        "source": "/.well-known/apple-app-site-association",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "no-cache"
-          }
-        ]
+        "source": "**",
+        "destination": "/index.html"
       }
     ]
   }
