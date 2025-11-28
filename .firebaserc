@@ -5,9 +5,6 @@
   "targets": {
     "tsuyosuketeniss": {
       "hosting": {
-        "dev_site": [
-          "tsuyosuketennis"
-        ],
         "tennipoiDev": [
           "tsuyosuketeniss"
         ]
