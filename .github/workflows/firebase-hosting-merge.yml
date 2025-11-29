@@ -19,4 +19,4 @@ jobs:
           projectId: tsuyosuketeniss
           # ターゲット名を指定
           # 例: メインアプリのターゲット名が tennipoiWeb の場合
-          target: tennipoiDev
+          target: tsuyosuketeniss
